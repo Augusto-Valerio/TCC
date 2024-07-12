@@ -16,14 +16,13 @@ header {
   height: 70px;
 }
 
-ul {
+a {
   color:#DCDCE1 ;
 
-  display: flex;
+  display: inline-flex;
   list-style: none;
-
-  gap: 80px;
-  margin: auto;
+ 
+  padding: 80px;
 }
 
 section {
