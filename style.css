@@ -1,12 +1,76 @@
 body {
+  margin: 0;
   background-color: #121214;
+  overflow-x: hidden;
 }
 
 
-.text {
+header {
+  background: #1A1A1E;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 1920px;
+  height: 70px;
+}
+
+ul {
   color:#DCDCE1 ;
+
+  display: flex;
+  list-style: none;
+
+  gap: 80px;
+  margin: auto;
+}
+
+section {
+  color: #DCDCE1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+  height: 741px;
+  margin-top: 60px;
+  
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  color:#DCDCE1 ;
+  width: 1920px;
+  height: 88px;
+  background: #1A1A1E;
 }
 
 .titulo {
   color: #E1E1E6 ;
 }
+
+.logo{
+  margin-left: 50px;
+}
+
+
+.perfil {
+  margin-right: 50px;
+}
+
+.gmail {
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+
+
+
+
+
+
+
