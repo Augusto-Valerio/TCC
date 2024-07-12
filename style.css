@@ -1,11 +1,12 @@
 body {
+  font-family: "Inter", sans-serif;
   margin: 0;
   background-color: #121214;
   overflow-x: hidden;
 }
 
 
-header {
+nav{
   background: #1A1A1E;
 
   display: flex;
@@ -16,13 +17,23 @@ header {
   height: 70px;
 }
 
-a {
+ul {
   color:#DCDCE1 ;
 
-  display: inline-flex;
+  display: flex;
   list-style: none;
- 
-  padding: 80px;
+
+  gap: 80px;
+  margin: auto;
+}
+
+ul li a {
+  color: #DCDCE1;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  font-weight: bold;
 }
 
 section {
@@ -49,6 +60,8 @@ footer {
 }
 
 .titulo {
+  font-family: "Poppins", sans-serif;
+
   color: #E1E1E6 ;
 }
 
